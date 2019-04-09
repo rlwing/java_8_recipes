@@ -71,6 +71,7 @@ public class UsePerson {
                              LinkedList::addAll);
     }
 
+    //verbose version of previous method with lambdas.  Previous is easier to read
     public List<Person> createPersonListUsingNewWithLambdas() {
         return names.stream()
                     .map(Person::new)
