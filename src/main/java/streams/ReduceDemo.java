@@ -9,6 +9,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
+//Cool Stuff
 public class ReduceDemo {
     @SuppressWarnings("Convert2MethodRef")
     public static void main(String[] args) {

@@ -10,6 +10,7 @@ import java.util.stream.IntStream;
 // DoublingDemo.doubleAndSumParallel    avgt   40  103.190 ± 0.352  ms/op
 // DoublingDemo.doubleAndSumSequential  avgt   40  619.827 ± 1.463  ms/op
 
+//Even more coolness (jmh plugin)
 @BenchmarkMode(Mode.AverageTime)
 @OutputTimeUnit(TimeUnit.MILLISECONDS)
 @State(Scope.Thread)

@@ -3,6 +3,7 @@ package streams;
 import java.util.logging.Logger;
 import java.util.stream.IntStream;
 
+//Cool stuff
 public class PeekDemo {
     private Logger logger = Logger.getLogger(PeekDemo.class.getName());
 
